@@ -1,3 +1,6 @@
+Source: https://app.pluralsight.com/library/courses/react-js-getting-started/table-of-contents
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
