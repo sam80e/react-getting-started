@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import axios from 'axios';
 
-
+//https://app.pluralsight.com/course-player?clipId=8f583202-ceab-46d0-bba8-482f0401e6a1 continue here
 
 const CardList = (props) => (
     <div>
@@ -16,7 +16,7 @@ class Card extends React.Component {
 
         return (
             <div className="github-profile" style={{ margin: '1rem' }}>
-                <img src={profile.avatar_url} />
+                <img src={profile.avatar_url} alt="profile avatar"/>
                 <div className="info" style={{ margin: '10px', display: 'inline-block' }}>
                     <div className="name" style={{ fontSize: '125%' }}>{profile.name}</div>
                     <div className="company">{profile.company}</div>
@@ -44,12 +44,10 @@ class Form extends React.Component {
                     type="text"
                     value={this.state.userName}
                     onChange={event => this.setState({ userName: event.target.value })}
-                    placeholder="Github username"
+                    placeholder="Enter a Github Username"
                     required
                 />
                 <button>Add card</button>
-
-
             </form>
         )
     }

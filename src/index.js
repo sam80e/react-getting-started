@@ -6,6 +6,7 @@ import GitHubCardsApp from './GitHubCardsApp';
 import CounterApp from './CounterApp';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import StarMatch from './StarMatch';
 
 
 ReactDOM.render(
@@ -18,6 +19,10 @@ ReactDOM.render(
       <div className="col-sm-4">
         <h1>Github Cards</h1>
         <GitHubCardsApp title="The Github Cards App"/>
+      </div>
+      <div className="col-sm-4">
+        <h1>Github Cards</h1>
+        <StarMatch title="Star Match"/>
       </div>
     </div>
     <App />
